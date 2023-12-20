@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;  
+}
+
+body{
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 90px 0 90px;
+}
+
+h1{
+    margin-top: 50px;
+}
+
+input{
+    width: 500px;
+    height: 40px;
+    border-radius: 15px;
+    padding-left: 10px;
+}
+
+input::placeholder{
+    padding: 0 0 0 10px;
+}
+
+input:hover{
+    border: solid white 1px ;
+}
+
+.add, .clear {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .add:hover, .clear:hover {background-color: #3e8e41}
+  
+  .add:active, .clear:active  {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  .list-group{
+    width: 100%;
+    margin: 0 15 0 15;
+  }
+
+  .tableList{
+    margin: 10px 0 0 0;
+    width: 100%;
+    background-color: white;
+    padding:  20px;
+    border-radius: 15px;
+  }
+
+  .tableText{
+    margin: 0 0 0 20px;
+  }
+
+  .buttonDelete, .buttonEdit, .new-button-editing, .new-button-closing{
+    padding: 10px;
+    margin: 0 0 0 10px;
+    background-color: white;
+    border-radius: 15px;
+  }
+  .new-container-editing{
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+
